@@ -41,5 +41,5 @@ Anchor packs the following essentials into its <20MB footprint:
 ## Quick Start
 
 ```bash
-docker pull your-docker-id/anchor:latest
-docker run -it your-docker-id/anchor /bin/bash
+docker pull mominhuzaifa/anchor:latest
+docker run -it mominhuzaifa/anchor /bin/bash
