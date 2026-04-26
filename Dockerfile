@@ -21,4 +21,7 @@ RUN apk update && \
 RUN addgroup -S anchor && adduser -S anchor -G anchor
 USER anchor
 
+# Set the prompt to show user@hostname:path$
+ENV PS1="\u@\h:\w\$ "
+
 CMD ["/bin/bash"]
